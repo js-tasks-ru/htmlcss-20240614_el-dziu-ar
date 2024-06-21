@@ -5,13 +5,29 @@
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./accordion.css">
     </head>
-    <body>
-        <details>
-            <summary>
-                Accordion item
+    <body class="body">
+        <details open class="details">
+            <summary class="details__title">
+                Пункт 1
             </summary>
-            <p>
-                Hidden content
+            <p class="details__content">
+                Обратите внимание, что summary по-умолчанию имеет display: inline. Поменяйте, если это необходимо.
+            </p>
+        </details>
+        <details open class="details">
+            <summary class="details__title">
+                Пункт 2
+            </summary>
+            <p class="details__content">
+                За стрелочку в summary отвечает псевдоэлемент ::-webkit-details-marker.
+            </p>
+        </details>
+        <details open class="details">
+            <summary class="details__title">
+                Пункт 3
+            </summary>
+            <p class="details__content">
+                Между пунктами в аккордеоне есть внешние отступы, но у последнего пункта отступа вниз быть не должно.
             </p>
         </details>
     </body>

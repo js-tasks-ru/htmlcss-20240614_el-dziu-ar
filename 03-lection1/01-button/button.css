@@ -1,1 +1,77 @@
-/* Стилизация кнопки */
+:root {
+    --white: #ffffff;
+    --purple: #7048E8;
+    --blue: #4263EB;
+    --red: #F03D3E;
+    --grey-3: #ACB5BD;
+    --primary-hover: #2342C0;
+    --secondary-hover: #5028C6;
+    --primary:var(--blue);
+    --secondary: var(--purple);
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+}
+
+.button__block {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+
+.button {
+    all:unset;
+    margin: 8px 16.5px;
+    padding: 0;
+    width: 189px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color:var(--white);
+    transition: background-color 1s ease-in-out;
+}
+
+.button__primary {
+    background-color:  var(--primary);
+}
+
+.button__secondary {
+    background-color: var(--secondary);
+}
+
+.button__alternate {
+    border: solid 1px var(--grey-3);
+    color: var(--black);
+    background-color: var(--white);
+}
+
+.button__primary:hover {
+    background-color:var(--primary-hover);
+}
+
+.button__secondary:hover {
+    background-color:var(--secondary-hover);
+}
+
+.button__alternate:hover {
+    border-color:  var(--black);
+    transition: border-color 1s ease-in-out;
+}
+
+.button__primary:disabled{
+    opacity: 0.5;
+}
+
+.button__secondary:disabled {
+    opacity: 0.5;
+}
+
+.button__alternate:disabled {
+    opacity: 0.5;
+}

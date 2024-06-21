@@ -1,1 +1,39 @@
-/* Стилизация аккордеона */
+* {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.body {
+    margin-top: 75px;
+}
+
+.details {
+    display: block;
+    margin: auto auto 8px;
+    width: 100%;
+    max-width: 730px;
+    border: solid #ACB5BD 1px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.details__title {
+    margin: 24px auto 16px 32px;
+    list-style: none;
+    color: black;
+}
+
+
+.details__content {
+    margin: 16px 48.69px 32px 32px ;
+    color: #495057;
+}
+
+.details__content p:last-child {
+    margin-bottom: 0;
+  }
+  .details__content p:first-child {
+    margin-top: 0;
+  }
