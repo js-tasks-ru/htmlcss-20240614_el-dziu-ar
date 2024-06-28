@@ -1,22 +1,22 @@
-* {
-    font-family: 'Inter', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-}
 
 .body {
     margin-top: 75px;
 }
 
 .details {
-    display: block;
-    margin: auto auto 8px;
-    width: 100%;
-    max-width: 730px;
     border: solid #ACB5BD 1px;
     border-radius: 8px;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.details__body {
+    margin: auto auto 8px;
+    display: block;
+    width: 100%;
+    max-width: 730px;
 }
 
 .details__title {
