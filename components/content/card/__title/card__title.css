@@ -1,0 +1,9 @@
+.card__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    padding: 30px;
+    margin: 0;
+}

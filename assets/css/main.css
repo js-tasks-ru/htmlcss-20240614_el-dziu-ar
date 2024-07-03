@@ -3,6 +3,8 @@
 @import '../../components/content/content.css';
 @import '../../components/content/__cards/content__cards.css';
 @import '../../components/content/card/card.css';
+@import '../../components/content/card/__item/card__item.css';
+@import '../../components/content/card/__title/card__title.css';
 @import '../../components/header/header.css';
 @import '../../components/header/__title/header__title.css';
 @import '../../components/footer/footer.css';
@@ -36,5 +38,5 @@
 
 * {
     font-family: 'Roboto', sans-serif;
-    outline: solid 2px red;
+    /* outline: solid 2px red; */
 }
