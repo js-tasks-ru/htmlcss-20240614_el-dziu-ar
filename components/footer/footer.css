@@ -1,3 +1,24 @@
 .footer {
     width: 100%;
 }
+
+.footer__title {
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 48px;
+    font-family: 'Inter';
+    font-style: normal;
+    padding-top: 71px;
+    text-align: center;
+}
+
+.footer__subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    padding: 32px 28.5% 136px;
+    text-align: center;
+    max-width: 640px;
+}
