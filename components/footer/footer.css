@@ -1,5 +1,5 @@
 .footer {
-    width: 100%;
+    background-color: var(--white);
 }
 
 .footer__title {
@@ -18,7 +18,9 @@
     line-height: 24px;
     font-family: 'Inter';
     font-style: normal;
-    padding: 32px 28.5% 136px;
+    padding-top: 32px;
+    padding-bottom: 136px;
+    margin: 0 auto;
     text-align: center;
     max-width: 640px;
 }

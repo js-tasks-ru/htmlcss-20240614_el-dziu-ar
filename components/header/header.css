@@ -1,9 +1,10 @@
 .header {
-    width: 100%;
+   background-color: var(--white);
 }
 
 .header__title {
-    padding: 96px 610px 77px 160px;
+    padding-bottom: 77px;
+    padding-top: 96px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
