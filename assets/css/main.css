@@ -1,15 +1,9 @@
 @import '../fonts/fonts.css';
 @import '../../components/page/page.css';
-@import '../../components/content/content.css';
-@import '../../components/content/__cards/content__cards.css';
-@import '../../components/content/card/card.css';
-@import '../../components/content/card/__item/card__item.css';
-@import '../../components/content/card/__title/card__title.css';
+@import '../../components/cards/cards.css';
+@import '../../components/card/card.css';
 @import '../../components/header/header.css';
-@import '../../components/header/__title/header__title.css';
 @import '../../components/footer/footer.css';
-@import '../../components/footer/__title/footer__title.css';
-@import '../../components/footer/__subtitle/footer__subtitle.css';
 @import '../../components/container/container.css';
 
 :root {
@@ -26,6 +20,11 @@
     --grey-4: #495057;
     --grey-content: #F9FAFC;
 
+    --gradient-1: #DDE2E5;
+    --gradient-2: #E2E6E8;
+    --gradient-3: #F3F5F5;
+    --gradient-4: #E3E7EA;
+    --gradient-5: #DDE2E5;
 
     --error: var(--red);
     --success: var(--blue);
