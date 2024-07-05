@@ -1,5 +1,5 @@
 .histogram {
-    max-width: 354px;
+    /* max-width: 354px; */
     margin: 0 auto;
     border: 1px solid var(--grey-3);
     border-radius: 8px;
@@ -7,19 +7,19 @@
 
 .histogram_small {
    margin: 80px 12px 45px;
-   height: 157px;
 }
 
-.histogram__blocks {
+.histogram__block {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     margin: 16px 24px 24px;
 }
 
-.histogram__blocks_small {
-    margin: 0 auto;
+.histogram__blocks {
     width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .histogram__orders {
@@ -51,7 +51,6 @@
 }
 
 .histogram__link {
-    margin-left: 10%;
     width: 59px;
     font-family: 'Inter';
     font-style: normal;
@@ -66,11 +65,11 @@
     display: flex;
     align-items:flex-end;
     justify-content: center;
-    flex-grow: 1;
+    width: 100%;
 }
 
 .histogram__pipe {
     margin: 0.5px;
-    width: 75%;
+    width: 74%;
 }
 
