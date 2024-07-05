@@ -7,9 +7,6 @@
 
 .button {
     all:unset;
-    padding: 15px 15px 14px;
-    width: 100%;
-    max-width: 189px;
     border: none;
     border-radius: 8px;
     box-sizing: border-box;
@@ -30,17 +27,19 @@
 
 .button_primary {
     background-color:  var(--primary);
+    padding: 16px 66px;
 }
 
 .button_secondary {
     background-color: var(--secondary);
+    padding: 16px 56px;
 }
 
 .button_alternate {
     border: solid 1px var(--grey-3);
     color: var(--black);
     background-color: var(--white);
-
+    padding: 16px 61px;
 }
 
 .button_primary:hover {
