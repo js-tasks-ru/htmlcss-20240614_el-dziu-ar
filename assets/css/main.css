@@ -16,6 +16,10 @@
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
     --grey-4: #495057;
+    --popup-title: #334D6E;
+    --popup-text: #495057;
+    --popup-content: #C4C4C4;
+    
 
 
     --error: var(--red);
