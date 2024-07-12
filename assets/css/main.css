@@ -12,6 +12,7 @@
     --range-day-calendar:#4263EB;
     --range-days-calendar:#A0B1F5;
     --red: #F03D3E;
+    --red-menu-item: #D84910;
     --grey-1: #F8F9FA;
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
@@ -19,7 +20,7 @@
     --popup-title: #334D6E;
     --popup-text: #495057;
     --popup-content: #C4C4C4;
-    
+
 
 
     --error: var(--red);
@@ -31,4 +32,8 @@
 
 * {
     font-family: 'Roboto', sans-serif;
+}
+
+.body {
+    margin: 0;
 }
