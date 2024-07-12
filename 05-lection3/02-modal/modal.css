@@ -23,13 +23,18 @@
     padding: 15px 51px;
 }
 
+.popup__button:hover {
+    cursor: pointer;
+    background: rgba(55, 76, 199, 0.8);
+}
+
 .popup__popup-block {
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(196, 196, 196, 0.2);;
+    background-color: rgba(196, 196, 196, 0.2);
 }
 
 .popup__content {
@@ -48,6 +53,10 @@
     max-width: 16px;
     height: 16px;
     margin: 12px 12px 0 93%;
+}
+
+.popup__close:hover {
+    cursor: pointer;
 }
 
 .popup__title {
