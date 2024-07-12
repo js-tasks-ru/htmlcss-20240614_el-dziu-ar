@@ -1,0 +1,8 @@
+.content {
+    background-color: var(--grey-1);
+}
+
+.content__cards {
+    max-width: 1440px;
+    height: 1036px;
+}
