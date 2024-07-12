@@ -1,8 +1,8 @@
 .popup {
     margin: 0 auto;
     max-width: 100%;
-    /* display: grid;
-    grid-template-columns: 1fr 1fr; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     padding: 35px 34px;
 }
 
