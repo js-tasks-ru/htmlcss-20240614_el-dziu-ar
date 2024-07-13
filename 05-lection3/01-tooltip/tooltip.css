@@ -1,8 +1,6 @@
+
 .tooltip {
     display: inline-block;
-    position: relative;
-    top: 62px;
-    left: 50%;
 }
 
 .tooltip__bubble {

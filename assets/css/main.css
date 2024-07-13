@@ -1,5 +1,8 @@
 @import '../fonts/fonts.css';
-
+@import url(./../../components/container.css);
+@import url(./../../components/button.css);
+@import url(./../../components/menu.css);
+@import url(./../../components/component.css);
 :root {
     --white: #ffffff;
     --black: #212429;
@@ -32,8 +35,5 @@
 
 * {
     font-family: 'Roboto', sans-serif;
-}
-
-.body {
     margin: 0;
 }

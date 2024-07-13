@@ -5,7 +5,7 @@
     border: 1px solid var(--grey-3);
     border-radius: 8px;
     margin: 0 auto;
-    padding: 24px 30px;
+    padding: 28px 30px 26px;
 }
 
 .calendar__title {
@@ -15,7 +15,6 @@
     font-size: 20px;
     line-height: 24px;
     color: var(--blue-calendar);
-    margin: 0 auto;
 }
 
 .calendar__wrapper {
@@ -50,7 +49,6 @@
 }
 
 .calendar__item_day {
-    margin: 24px auto;
     font-family: 'Inter';
     font-size: 14px;
     line-height: 20px;
