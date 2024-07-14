@@ -1,0 +1,8 @@
+.cards {
+    background-color: var(--grey-1);
+}
+
+.cards__list {
+    display: flex;
+    flex-wrap: wrap;
+}
