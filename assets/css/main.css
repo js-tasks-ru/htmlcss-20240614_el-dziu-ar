@@ -6,6 +6,8 @@
 @import '../../components/footer/footer.css';
 @import '../../components/container/container.css';
 @import '../../components/histogram/histogram.css';
+@import url('../../components/menu/menu.css');
+@import url('../../components/component/component.css');
 
 :root {
     --white: #ffffff;
@@ -14,7 +16,13 @@
     --purple: #7048E8;
     --blue: #374FC7;
     --prim-blue: #4263EB;
+    --blue-trigger: #4263EB;
+    --blue-calendar-days: #90A0B7;
+    --blue-calendar:#334D6E;
+    --range-day-calendar:#4263EB;
+    --range-days-calendar:#A0B1F5;
     --red: #F03D3E;
+    --red-menu-item: #D84910;
     --grey-1: #F8F9FA;
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
@@ -38,5 +46,6 @@
 
 * {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
     /* outline: solid 2px red; */
 }
