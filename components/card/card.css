@@ -1,10 +1,8 @@
 .card {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     width: 350px;
     height: 367px;
-    margin: 15px;
     border-radius: 12px;
     background-color: var(--white);
     text-align: center;
@@ -21,5 +19,5 @@
 }
 
 .card__item {
-    height: 100%;
+    flex-grow: 1;
 }
