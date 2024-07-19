@@ -5,4 +5,6 @@
 .cards__list {
     display: flex;
     flex-wrap: wrap;
+    padding-top: 62px;
+    padding-bottom: 204px;
 }
