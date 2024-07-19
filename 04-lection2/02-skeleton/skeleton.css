@@ -1,0 +1,54 @@
+.skeleton {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 579px;
+    margin: 0 auto;
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+    padding: 24px 24px 32px;
+}
+
+.ellipse {
+    width: 64px;
+    height: 64px;
+    margin-right: 24px;
+}
+
+.short-lines {
+    display: flex;
+    flex-direction: column;
+    max-width: 257px;
+    margin-bottom: 32px;
+}
+
+.short-lines__line {
+    height: 20px;
+    background-color:  var(--grey-2);
+    background: linear-gradient(to right, var(--gradient-1), var(--gradient-2), var(--gradient-3), var(--gradient-4), var(--gradient-5));    
+}
+
+.short-lines__line:first-child {
+    width: 172px;
+    margin-bottom: 8px;
+}
+
+.short-lines__line:nth-child(2) {
+    width: 257px;
+}
+
+.long-lines {
+    display: flex;
+    flex-direction: column;
+    max-width: 515px;
+}
+
+.long-lines__line {
+    height: 20px;
+    width: 515px;
+    background-color: var(--grey-2);
+    background: linear-gradient(to right, var(--gradient-1), var(--gradient-2), var(--gradient-3), var(--gradient-4), var(--gradient-5));    
+}
+
+.long-lines__line:first-child {
+    margin-bottom: 8px;
+}
