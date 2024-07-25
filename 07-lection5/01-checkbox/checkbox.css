@@ -71,3 +71,5 @@
 .checkbox__title {
     text-decoration: underline;
 }
+
+/* почему не работает подчеркивание при фокусе: строки 70-73? */
