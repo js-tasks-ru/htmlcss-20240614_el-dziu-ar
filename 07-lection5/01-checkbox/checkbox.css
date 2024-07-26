@@ -62,14 +62,12 @@
     display: none;
 }
 
-.checkbox__input:disabled ~ .checkbox__state
-.checkbox__icon {
+.checkbox__input:disabled ~ .checkbox__icon {
     color: var(--grey-2);
 }
 
-.checkbox__input:focus ~ .checkbox__state
-.checkbox__title {
+.checkbox__input:focus ~ .checkbox__title {
     text-decoration: underline;
 }
 
-/* почему не работает подчеркивание при фокусе: строки 70-73? */
+/* как убрать подчеркивание после того как снял галочку с чексбокса? */
