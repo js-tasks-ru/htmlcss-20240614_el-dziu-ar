@@ -66,14 +66,12 @@
     display: none;
 }
 
-.radio__input:disabled ~ .radio__state
-.radio__title {
-    color: var(--blue-1);
+.radio__input:disabled ~ .radio__title {
+    color: var(--grey-2);
 }
 
-/* .radio__input:focus ~ .radio__state
-.radio__title {
+.radio__input:focus ~ .radio__title {
     text-decoration: underline;
-} */
+}
 
-/* почему не работает подчеркивание при фокусе: строки 70-73? */
+/* почему подчеркиваетеся только одна кнопка через таб? */
