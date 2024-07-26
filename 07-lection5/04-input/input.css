@@ -45,7 +45,7 @@
     height: 24px;
 }
 
-.input__icon_success{
+/* .input__icon_success{
     display: block;
     background-image: url(/assets/images/Input/check-circle.svg);
 }
@@ -53,4 +53,4 @@
 .input__icon_error{
     display: block;
     background-image: url(/assets/images/Input/alert-triangle.svg);
-}
+} */
